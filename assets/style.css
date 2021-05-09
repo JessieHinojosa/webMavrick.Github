@@ -263,7 +263,7 @@ header nav ul li a {
         padding-bottom: 50px;
     }
     #portfolioSlideshow a {
-        width: 35%;
+        width: 85%;
         height: 150px;
         padding: 1em;
     }
@@ -324,45 +324,45 @@ header nav ul li a {
         color: #fff;
         width: 100%;
         line-height: 1.7em;
-        
+        align-content: center;
+
     
     }
     #bioText p span {
         font-size: 1.2em;
-        margin-left: 42%;;
+        position: relative;
+        left: 38%;
+        
     }
     #bioText p {
         font-size: 1em;
         width: 100%;
+        padding: 10px;
     }
     #bio img {
         width: 200px;
         height: 200px;
         margin-top: 20px;
-        margin-left: 35%;
-        border: 3px solid rgb(184, 68, 68);
+        margin-bottom: 30px;
         border-radius: 50%;
+        position: relative;
+        left: 33%;
+        
         
     }
     
     #portfolioSlideshow {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         background-color: rgba(133, 131, 131, .5);
         padding-top: 50px;
         padding-bottom: 50px;
     }
     #portfolioSlideshow a {
-        width: 25%;
-        height: 200px;
-        padding: 1.3em;
-        text-decoration: none;
-        color: #fff;
-        opacity: .3;
-    }
-    #portfolioSlideshow a:hover {
-        opacity: 1;
+        width: 85%;
+        height: 150px;
+        padding: 1em;
     }
     #card1 {
         background-image: url("./images/surf.jpg");
@@ -392,45 +392,51 @@ header nav ul li a {
         
     }
     
-    #skillset {
-        background-color: rgba(133, 131, 131, .5);
-    }
-    #skillset ul {
-        display: flex;
-        flex-wrap: wrap;
-    }
     #skillsetList li {
-        font-size: 1.4em;
-        display: inline;
-        color: #fff;
-        flex: 1 25%;
-        justify-content: space-evenly;
-        margin-left: 18%;
-        padding: 1.3em;
+        font-size: 1em;
     }
-    
-    #contactInfo {
-        width: 100%;
-        height: 100px;
+}       
+@media screen and (max-width:565px) {
+    #bio {
+        padding: 25px;
+        display: block;
         background-color: rgba(133, 131, 131, .5);
-        margin-bottom: 100px;
+    
     }
-    #contactInfoList {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-evenly;
+    .section-title {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        font-size: 2em;
+    }    
+    
+    #bioText {
+        color: #fff;
+        width: 100%;
+        line-height: 1.7em;
+        align-content: center;
+
+    
+    }
+    #bioText p span {
+        font-size: 1.2em;
+        position: relative;
+        left: 36%;
         
     }
-    #contactInfoList li {
-        list-style: none;
-        padding-top: 40px;
-    
+    #bioText p {
+        font-size: 1em;
+        width: 100%;
+        padding: 10px;
     }
-    #contactInfoList li a {
-        font-size: 1.4em;
-        color: #fff;
-    
+    #bio img {
+        width: 200px;
+        height: 200px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+        border-radius: 50%;
+        position: relative;
+        left: 31%;
+        
+        
     }
-    
-
 }
