@@ -1,1 +1,1 @@
-#First Portfolio website - For progress only
+#First Portfolio website - for seeing my progress only
